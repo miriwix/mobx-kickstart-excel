@@ -9,7 +9,8 @@
     "url": ""
   },
   "scripts": {
-    "start": "yoshi start --entry-point=./test/mock/start-fake-server.js"
+    "start": "yoshi start --entry-point=./test/mock/start-fake-server.js",
+    "test": "yoshi test"
   },
   "yoshi": {
     "entry": "./app.js"
